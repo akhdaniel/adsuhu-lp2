@@ -289,11 +289,13 @@ li {
   background: rgba(0, 0, 0, 0.28);
 }
 
-.video-frame video {
+.video-frame video,
+.video-frame iframe {
   display: block;
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
+  border: 0;
 }
 
 .value-stack {
